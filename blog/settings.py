@@ -25,7 +25,7 @@ SECRET_KEY = '%ti=iapn_a^o4c*96phljh2bwyp=h&vz2v1-_)er+*#wf8yhx4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://psifonik.pythonanywhere.com/']
 
 
 # Application definition
