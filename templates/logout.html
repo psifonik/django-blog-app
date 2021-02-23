@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block body %}
+{% load crispy_forms_tags %}
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+<h3>Çıkış Yap</h3>
+<hr>
+        {% csrf_token %}
+        {{ form.media }}
+        {{form|crispy}}
+</div>
+</div>
+{% endblock %}
